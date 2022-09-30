@@ -1,0 +1,156 @@
+
+.leftside, .rightside {
+    height: 100%;
+    width: 100%;
+  }
+
+  .heading{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .workPhoto{
+    height: 75px;
+    width: 60px;
+  
+}
+#leftbox {
+    float:left; 
+    
+    width:25%;
+    height:75px;
+}
+#middlebox{
+    float:left; 
+    
+    width:50%;
+    height:75px;
+}
+#rightbox{
+    float:right;
+    
+    width:25%;
+    height:75px;
+}
+h1{
+   
+    text-align:center;
+}
+#leftsidebox{
+    float:left; 
+    
+    width:80%;
+    height: 20px;
+}
+
+#rightsidebox{
+    float:right;
+    
+    width:20%;
+    height:75px;
+}
+.leftsidecontainer{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.doc12{
+    text-align: center;
+    height: 50px;
+    width:200px;
+    flex-grow: 0;
+    display:inline-block;
+    background-color: rgb(196, 200, 207);
+    margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+.mobilediv{
+    margin-top: 30px;
+}
+#countrycode{
+    float:left; 
+    height:75px;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(196, 200, 207); 
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    display:inline-block;
+}
+#mobileinput{
+    margin-left: 5px;
+    display:inline-block;
+    background-color: rgb(196, 200, 207);;
+}
+.online,.clinic{
+    text-align: center;
+    height: 50px;
+    width:200px;
+    flex-grow: 0;
+    display:inline-block;
+    background-color: rgb(196, 200, 207);
+    margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+.cancelb{
+    text-align: center;
+    height: 50px;
+    width:100%;
+    flex-grow: 0;
+    background-color: rgb(196, 200, 207);
+    margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+
+}
+.continueb{
+    width:100%;
+    height: 50px;
+    background-color: rgb(11, 142, 248);
+    margin-top: 10px;
+}
+.rightSidebigcontainer{
+    margin-top: 30px;
+    margin-right: 50px;
+
+}
+.conformation{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.ptag{
+    font-size: 25px;
+}
+.doc12:hover,
+    .doc12:active,
+    .pay:hover,
+    .pay:active
+     {
+        background-color: #226fa3;
+        transition: background-color 0.4s ease-in, border-color 0.4s ease-in;
+        color:#ffffff;
+    }
+    .optionsecoptions:hover,
+    .optionsecoptions:active {
+        background-color: #226fa3;
+        transition: background-color 0.4s ease-in, border-color 0.4s ease-in;
+        color:#ffffff;
+    }
